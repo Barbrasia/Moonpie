@@ -51,7 +51,7 @@ MonoBehaviour:
   - {fileID: 17}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 41
+  controlID: 61
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,8 +96,8 @@ MonoBehaviour:
     y: 0
     width: 390
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 120
+  controlID: 49
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 121
+  controlID: 50
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,7 +308,24 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -1016027550011668487, guid: 0c29e1f55fe9639489723ec0ab3d8aaa, type: 2}
+    - {fileID: 8336276125840966595, guid: f7160fa062ee6c0408a36209000fefd3, type: 2}
     m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
     - e00: 1
       e01: 0
       e02: 0
@@ -382,22 +399,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/animations/fridge
+    - Assets/animations/tapera
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/animations/fridge
+  - Assets/animations/tapera
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\projekty\Moonpie\Moonpie\Moonpie Unity
+  m_LastProjectPath: C:\Users\bbojanow\Desktop\Moonpie\Moonpie Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 42ef0000
-    m_LastClickedID: 61250
-    m_ExpandedIDs: 00000000c45b0000305c0000345c00003a5c0000a25c0000c4c9000000ca9a3bffffff7f
+    m_SelectedIDs: b0730000
+    m_LastClickedID: 29616
+    m_ExpandedIDs: 00000000187300007c7300007e730000827300008873000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,7 +442,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c45b0000
+    m_ExpandedIDs: 0000000018730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -553,9 +570,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e02ffdff
+      m_SelectedIDs: b0730000
       m_LastClickedID: 0
-      m_ExpandedIDs: ea9afdffee9afdff42fafeff9249ffff38fbffff705a0000985a0000
+      m_ExpandedIDs: 72aeffff10b2fffff0b2ffff24e3ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -804,9 +821,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 41.358677, y: 92.3047, z: 5.229308}
+    m_Target: {x: 45.01765, y: 90.338875, z: 10.653059}
     speed: 2
-    m_Value: {x: 41.358677, y: 92.3047, z: 5.229308}
+    m_Value: {x: 45.01765, y: 90.338875, z: 10.653059}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -853,13 +870,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.020609315, y: 0.9780712, z: -0.17041011, w: 0.11822852}
+    m_Target: {x: -0.06157232, y: 0.9155948, z: -0.1538762, w: -0.36644822}
     speed: 2
-    m_Value: {x: 0.02035301, y: 0.9782154, z: -0.17043525, w: 0.11675745}
+    m_Value: {x: -0.06157025, y: 0.91556406, z: -0.15387103, w: -0.36643592}
   m_Size:
-    m_Target: 1.7529583
+    m_Target: 3.7292955
     speed: 2
-    m_Value: 1.7529583
+    m_Value: 3.7292955
   m_Ortho:
     m_Target: 0
     speed: 2
