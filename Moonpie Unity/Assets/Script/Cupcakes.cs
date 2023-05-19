@@ -6,6 +6,12 @@ public class Cupcakes : MonoBehaviour
 {
     public GameObject[] cupcakes;
     private int activeIndex = 0;
+    private Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
 
     private void Awake()
     {
@@ -19,9 +25,14 @@ public class Cupcakes : MonoBehaviour
     {
         if (other.CompareTag("Player") && activeIndex < cupcakes.Length)
         {
+            animator.SetBool("ActivateCupcake", true);
             cupcakes[activeIndex].SetActive(true);
             activeIndex++;
         }
 
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        animator.SetBool("ActivateCupcake", false);
     }
 }
